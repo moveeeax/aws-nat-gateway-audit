@@ -1,0 +1,5 @@
+id,region,vpc_id,subnet_id,state,verdict,monthly_gb,monthly_cost_usd
+nat-0bb22busy0000002,eu-central-1,vpc-demo1,subnet-b,available,ACTIVE,1741.1,128.50
+nat-0cc33s3only00003,eu-central-1,vpc-demo2,subnet-c,available,ACTIVE,514.3,64.70
+nat-0aa11idle0000001,eu-central-1,vpc-demo1,subnet-a,available,IDLE,0.6,37.99
+nat-0dd44dead000004,eu-central-1,vpc-demo2,subnet-d,available,IDLE,0.0,37.96

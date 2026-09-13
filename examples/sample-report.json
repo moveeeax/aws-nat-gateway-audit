@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "id": "nat-0bb22busy0000002",
+      "region": "us-east-1",
+      "vpc_id": "vpc-demo1",
+      "subnet_id": "subnet-b",
+      "state": "available",
+      "verdict": "ACTIVE",
+      "monthly_gb": 1741.1,
+      "monthly_cost_usd": 111.2
+    },
+    {
+      "id": "nat-0cc33s3only00003",
+      "region": "us-east-1",
+      "vpc_id": "vpc-demo2",
+      "subnet_id": "subnet-c",
+      "state": "available",
+      "verdict": "ACTIVE",
+      "monthly_gb": 514.3,
+      "monthly_cost_usd": 55.99
+    },
+    {
+      "id": "nat-0aa11idle0000001",
+      "region": "us-east-1",
+      "vpc_id": "vpc-demo1",
+      "subnet_id": "subnet-a",
+      "state": "available",
+      "verdict": "IDLE",
+      "monthly_gb": 0.6,
+      "monthly_cost_usd": 32.88
+    },
+    {
+      "id": "nat-0dd44dead000004",
+      "region": "us-east-1",
+      "vpc_id": "vpc-demo2",
+      "subnet_id": "subnet-d",
+      "state": "available",
+      "verdict": "IDLE",
+      "monthly_gb": 0,
+      "monthly_cost_usd": 32.85
+    }
+  ],
+  "total_waste_usd": 65.72892857142858,
+  "idle_count": 2
+}
