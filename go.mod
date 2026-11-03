@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.33.13
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.75.3
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.343.0
-	github.com/spf13/cobra v1.8.1
+	github.com/spf13/cobra v1.10.2
 )
 
 require (
@@ -24,5 +24,5 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.51.6 // indirect
 	github.com/aws/smithy-go v1.28.7 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/pflag v1.0.9 // indirect
 )
